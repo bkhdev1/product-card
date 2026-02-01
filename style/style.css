@@ -1,0 +1,128 @@
+* {
+  font-family: 'Montserrat';
+  box-sizing: border-box;
+}
+
+.title-wrapper{
+  width: 1110px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.title__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 70px;
+  text-align: center;
+  color: #515076;
+  margin-top: 220px;
+  margin-bottom: 110px;
+}
+
+.background{
+  background-image: url("./bg-flowers.png");
+  background-repeat: no-repeat;
+  background-size: 790px;
+}
+
+.product-card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1110px;
+  gap: 45px;
+  margin: 0 auto;
+  left: 85px;
+}
+
+.product-card {
+  background-color: #F7F7FA;
+  width: 340px;
+  padding: 25px;
+}
+
+.product-card__img {
+  width: 290px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.product-card__for-skin {
+  margin-top: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #A5A3B9;
+}
+
+.product-card__title {
+  margin: 5px auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #515076;
+}
+
+.product-card__descr {
+  margin-bottom: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 13px;
+  color: #515076;
+}
+
+.product-card__composition {
+  list-style: circle;
+  list-style-position: inside;
+  padding-left: 0;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 13px;
+  color: #515076;
+}
+
+.product-card__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 13px;
+  color: #515076;
+}
+
+.product-card__item {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 13px;
+  color: #515076;
+  margin: 5px auto;
+}
+
+.product-card__price-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.product-card__price-wrapper {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #515076;
+}
+
+.product-card_price {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #515076;
+}
