@@ -3,7 +3,23 @@
   box-sizing: border-box;
 }
 
-.title-wrapper{
+.buttons {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.recolor-button {
+  background-color: rgb(18, 43, 92);
+  color: white;
+}
+
+.recolor-button__active {
+  background-color: bisque;
+  color: black;
+}
+
+.title-wrapper {
   width: 1110px;
   display: flex;
   justify-content: center;
@@ -22,7 +38,7 @@
   margin-bottom: 110px;
 }
 
-.background{
+.background {
   background-image: url("./bg-flowers.png");
   background-repeat: no-repeat;
   background-size: 790px;
