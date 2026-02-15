@@ -1,6 +1,5 @@
 // покраска первой карточки
 
-//  const a = document.querySelector('#recolor-first-card-button');
 const recolorFirstCardButton = document.getElementById('recolor-first-card-button');
 const firstProductCard = document.querySelector('.product-card');
 const blueHashColor = '#0d00ff';
@@ -40,9 +39,9 @@ function openGoogle() {
 
 // вывод заголовка в консоль при наведении
 
-const titleTextOutput = document.querySelector('.title__text');
-titleTextOutput.addEventListener('mouseover', function() {
-  console.log(titleTextOutput.textContent)
+const title = document.querySelector('.title__text');
+title.addEventListener('mouseover', function() {
+  console.log(title.textContent)
 })
 
 // добавление кнопки, меняющей цвет при нажатии
