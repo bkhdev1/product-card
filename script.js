@@ -19,7 +19,7 @@ recolorAllCardsButton.addEventListener('click', () => {
   productCards.forEach(
     card => card.style.backgroundColor = greenHashColor
   )
-})
+});
 
 // переход на страницу гугл
 
@@ -27,12 +27,12 @@ const googleOpenButton = document.getElementById('open-google-button');
 googleOpenButton.addEventListener('click', openGoogle);
 
 function openGoogle() {
-  const question = confirm('вы действительно хотите перейти на сайт Google?')
+  const question = confirm('вы действительно хотите перейти на сайт Google?');
 
   if (question === true) {
     window.open('https://google.com');
   }
-  else{
+  else {
     console.log('Пользователь отменил переход на гугл')
   }
 }
