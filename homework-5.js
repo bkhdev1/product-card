@@ -1,7 +1,7 @@
 // 3.1. функция для вывода температуры
 
 function showTemperature(city, temperature) {
-  console.log(`Сейчас в ${city} температура  — ${temperature} градусов по Цельсию`)
+  console.log(`Сейчас в ${city} температура  — ${temperature} градусов по Цельсию`);
 }
 
 showTemperature('России', 'минус 12');
@@ -9,14 +9,14 @@ showTemperature('России', 'минус 12');
 // 3.2. стрелочная функция для вывода температуры
 
 const showTemperatureImproved = (city, temperature) => {
-  return (`Сейчас в ${city} температура  — ${temperature} градусов по Цельсию`)
+  return (`Сейчас в ${city} температура  — ${temperature} градусов по Цельсию`);
 }
 
 console.log(showTemperatureImproved('России', 'минус 12'));
 
 // 4. функция для определения какая скорость перед нами
 
-const speedOfLight = 299792458;
+const SPEED_OF_LIGHT = 299792458;
 
 const compareSpeed = speed => {
   result = speed === speedOfLight 
@@ -31,10 +31,10 @@ const compareSpeed = speed => {
 
 let moisturizingMousse = 'Увлажняющий мусс';
 let moisturizingMoussePrice = 2750;
-const hasMoney = budget => {
+const checkBalance = budget => {
   result = budget >= moisturizingMoussePrice
-  ? result = `${moisturizingMousse} приобретен. Спасибо за покупку!`
-  : result = `Вам не хватает ${moisturizingMoussePrice - budget} $, пополните баланс`;
+  ? `${moisturizingMousse} приобретен. Спасибо за покупку!`
+  : `Вам не хватает ${moisturizingMoussePrice - budget} $, пополните баланс`;
   return result;
 }
 
@@ -52,8 +52,3 @@ const isPositive = number =>{
 let lemonadePrice = 150;
 const EQUATORIAL_EARTH_RADIUS = 6378;
 let firstName = 'Булат';
-
-
-
-
-
