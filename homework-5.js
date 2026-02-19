@@ -21,13 +21,13 @@ const SPEED_OF_LIGHT = 299792458;
 const compareSpeed = speed => {
   result = '';
   if (speed === SPEED_OF_LIGHT) {
-    result = 'Скорость света'
+    result = 'Скорость света';
   } 
   else if (speed > SPEED_OF_LIGHT) {
-    result = 'Сверхсветовая скорость'
+    result = 'Сверхсветовая скорость';
   }
   else {
-    result = 'Субсветовая  скорость'
+    result = 'Субсветовая  скорость';
   }
   return result;
 }
