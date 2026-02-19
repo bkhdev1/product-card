@@ -19,7 +19,7 @@ console.log(showTemperatureImproved('России', 'минус 12'));
 const SPEED_OF_LIGHT = 299792458;
 
 const compareSpeed = speed => {
-  result = '';
+  let result = '';
   if (speed === SPEED_OF_LIGHT) {
     result = 'Скорость света';
   } 
@@ -36,8 +36,8 @@ const compareSpeed = speed => {
 
 let moisturizingMousse = 'Увлажняющий мусс';
 let moisturizingMoussePrice = 2750;
-const checkBalance = budget => {
-  result = budget >= moisturizingMoussePrice
+const buyProduct = budget => {
+  let result = budget >= moisturizingMoussePrice
   ? `${moisturizingMousse} приобретен. Спасибо за покупку!`
   : `Вам не хватает ${moisturizingMoussePrice - budget} $, пополните баланс`;
   return result;
@@ -46,7 +46,7 @@ const checkBalance = budget => {
 // 6. функция определяющая, является ли число положительным
 
 const isPositive = number =>{
-  result = number > 0 
+  let result = number > 0 
   ? 'Число положительное' 
   : 'число не положительное';
   return result;
