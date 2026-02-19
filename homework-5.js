@@ -19,11 +19,16 @@ console.log(showTemperatureImproved('России', 'минус 12'));
 const SPEED_OF_LIGHT = 299792458;
 
 const compareSpeed = speed => {
-  result = speed === speedOfLight 
-  ? result = 'Скорость света' 
-  : speed > speedOfLight 
-    ? result = 'Сверхсветовая скорость' 
-    : result = 'Субсветовая  скорость'
+  result = '';
+  if (speed === SPEED_OF_LIGHT) {
+    result = 'Скорость света'
+  } 
+  else if (speed > SPEED_OF_LIGHT) {
+    result = 'Сверхсветовая скорость'
+  }
+  else {
+    result = 'Субсветовая  скорость'
+  }
   return result;
 }
 
