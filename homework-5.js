@@ -45,10 +45,8 @@ const buyProduct = budget => {
 
 // 6. функция определяющая, является ли число положительным
 
-const checkIfPositive = number =>{
-  let result = number > 0 
-  ? 'Число положительное' 
-  : 'число не положительное';
+const isNumberPositive = number =>{
+  const result = number > 0;
   return result;
 }
 
