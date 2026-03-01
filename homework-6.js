@@ -82,11 +82,35 @@ const footballers = [
 // 9. Слияние массивов с помощью оператора spread
 
 const basketballPlayers = [
-  {name: 'LeBron James', age: 40, nationalTeam: 'USA', club: 'Los Angeles Lakers'},
-  {name: 'Stephen Curry', age: 37, nationalTeam: 'USA', club: 'Golden State Warriors'},
-  {name: 'Giannis Antetokounmpo', age: 30, nationalTeam: 'Greece', club: 'Milwaukee Bucks'},
-  {name: 'Kevin Durant', age: 36, nationalTeam: 'USA', club: 'Phoenix Suns'},
-  {name: 'Luka Dončić', age: 26, nationalTeam: 'Slovenia', club: 'Los Angeles Lakers'}
+  {
+    name: 'LeBron James',
+    age: 40,
+    nationalTeam: 'USA',
+    club: 'Los Angeles Lakers'
+  },
+  {
+    name: 'Stephen Curry',
+    age: 37,
+    nationalTeam: 'USA',
+    club: 'Golden State Warriors'
+  },
+  {name: 'Giannis Antetokounmpo',
+    age: 30,
+    nationalTeam: 'Greece',
+    club: 'Milwaukee Bucks'
+  },
+  {
+    name: 'Kevin Durant',
+    age: 36,
+    nationalTeam: 'USA',
+    club: 'Phoenix Suns'
+  },
+  {
+    name: 'Luka Dončić',
+    age: 26,
+    nationalTeam: 'Slovenia',
+    club: 'Los Angeles Lakers'
+  }
 ];
 
 const athletes = [...footballers, ...basketballPlayers]
