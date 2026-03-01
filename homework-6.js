@@ -26,18 +26,18 @@ car.owner = user;
 
 // 5. Создание функции которая аргументом будет принимать объект, описанный в пункте №4
 
-const checkMaxSpeed = car => {
+const addMaxSpeed = car => {
   if (car.maxSpeed === undefined) {
-    car.maxSpeed = 90
+    car.maxSpeed = 90;
   } 
   else {
-    return
+    return;
   }
 }
 
 // 6. Создание функции которая аргументом будет принимать первым аргументом  — объект, а вторым аргументом — свойство объекта
 
-const showProperty = (object, property) => {
+const showObjectProperty = (object, property) => {
   console.log(property);
 }
 
@@ -113,13 +113,13 @@ const basketballPlayers = [
   }
 ];
 
-const athletes = [...footballers, ...basketballPlayers]
+const athletes = [...footballers, ...basketballPlayers];
 
 // 10. Использование метода map
 
-const isYoung = athletes => {
-  athletes.map(athlete => {
-    athlete.isYoung = athlete.age < 30}
+const checkIfYoung = athletes => {
+  let checkedAthletes = athletes;
+  return checkedAthletes = checkedAthletes.map(checkedAthletes => {
+    checkedAthletes.isYoung = checkedAthletes.age < 30}
   )
-  return athletes;
 }
