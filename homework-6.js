@@ -117,7 +117,7 @@ const athletes = [...footballers, ...basketballPlayers];
 
 // 10. Использование метода map
 
-const checkIfYoung = athletes => {
+const getYoungAthletes = athletes => {
   let checkedAthletes = athletes;
   return checkedAthletes = checkedAthletes.map(checkedAthletes => {
     checkedAthletes.isYoung = checkedAthletes.age < 30}
