@@ -118,8 +118,9 @@ const athletes = [...footballers, ...basketballPlayers];
 // 10. Использование метода map
 
 const getYoungAthletes = athletes => {
-  let checkedAthletes = athletes;
-  return checkedAthletes = checkedAthletes.map(checkedAthletes => {
+  let checkedAthletes = structuredClone(athletes);
+  checkedAthletes.map(checkedAthletes => {
     checkedAthletes.isYoung = checkedAthletes.age < 30}
   )
+  return checkedAthletes;
 }
