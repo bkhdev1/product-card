@@ -94,7 +94,8 @@ const basketballPlayers = [
     nationalTeam: 'USA',
     club: 'Golden State Warriors'
   },
-  {name: 'Giannis Antetokounmpo',
+  {
+    name: 'Giannis Antetokounmpo',
     age: 30,
     nationalTeam: 'Greece',
     club: 'Milwaukee Bucks'
@@ -119,8 +120,10 @@ const athletes = [...footballers, ...basketballPlayers];
 
 const getYoungAthletes = athletes => {
   let checkedAthletes = structuredClone(athletes);
-  checkedAthletes.map(checkedAthletes => {
-    checkedAthletes.isYoung = checkedAthletes.age < 30}
+  return checkedAthletes.map(checkedAthl => {
+    return {
+      ...checkedAthl, isYoung: checkedAthletes.age < 30
+    }
+  }
   )
-  return checkedAthletes;
 }
