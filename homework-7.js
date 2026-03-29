@@ -12,7 +12,7 @@ const hasLada = cars.includes('LADA');
 
 // 4. Функция, переворачивающая массив
 
-const getReverseArray = (array) => {
+const ReverseArray = (array) => {
   array.reverse();
 }
 numbers = getReverseArray(numbers);
