@@ -15,8 +15,8 @@ const hasLada = cars.includes('LADA');
 const reverseArray = (array) => {
   array.reverse();
 }
-numbers = getReverseArray(numbers);
-numbers = getReverseArray(cars);
+numbers = reverseArray(numbers);
+numbers = reverseArray(cars);
 
 // 7. Вывод в консоль массив тех комментариев, почта пользователей которых содержит ".com"
 
