@@ -45,11 +45,6 @@
 }
 
 .product-card-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 1110px;
-  gap: 45px;
   margin: 0 auto;
   left: 85px;
 }
@@ -141,4 +136,13 @@
   font-size: 20px;
   line-height: 20px;
   color: #515076;
+}
+
+#product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 45px;
+  width: 1110px;
+  margin: 0 auto;
 }
