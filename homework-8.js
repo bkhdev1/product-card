@@ -13,7 +13,7 @@ const getCardsCount = () => {
   }
 
   alert('Можно ввести только число от 1 до 5');
-  return 5;
+  return null;
 };
 
 const renderProductCards = products => {
